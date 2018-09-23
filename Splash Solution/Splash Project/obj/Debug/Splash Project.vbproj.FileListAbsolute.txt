@@ -1,0 +1,12 @@
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\bin\Debug\Zoo Splash.exe.config
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\bin\Debug\Zoo Splash.exe
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\bin\Debug\Zoo Splash.pdb
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\bin\Debug\Zoo Splash.xml
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Splash Project.vbprojAssemblyReference.cache
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Splash_Project.Resources.resources
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Splash_Project.frmSplash.resources
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Splash Project.vbproj.GenerateResource.cache
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Splash Project.vbproj.CoreCompileInputs.cache
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Zoo Splash.exe
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Zoo Splash.xml
+D:\Code Projects\VB2015_Projects\Splash Solution\Splash Project\obj\Debug\Zoo Splash.pdb
