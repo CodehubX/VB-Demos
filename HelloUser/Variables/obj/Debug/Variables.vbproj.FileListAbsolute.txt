@@ -1,0 +1,12 @@
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\bin\Debug\Variables.exe.config
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\bin\Debug\Variables.exe
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\bin\Debug\Variables.pdb
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\bin\Debug\Variables.xml
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.Resources.resources
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.vbproj.GenerateResource.cache
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.vbproj.CoreCompileInputs.cache
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.exe
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.xml
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.pdb
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.vbprojAssemblyReference.cache
+D:\Code Projects\VB2015_Projects\HelloUser\Variables\obj\Debug\Variables.FloatingPointMath.resources
