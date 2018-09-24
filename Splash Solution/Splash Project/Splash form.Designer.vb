@@ -54,7 +54,7 @@ Partial Class frmSplash
         'picIguanas
         '
         Me.picIguanas.Image = Global.Splash_Project.My.Resources.Resources.Iguanas
-        Me.picIguanas.Location = New System.Drawing.Point(-7, -11)
+        Me.picIguanas.Location = New System.Drawing.Point(-6, -7)
         Me.picIguanas.Name = "picIguanas"
         Me.picIguanas.Size = New System.Drawing.Size(405, 322)
         Me.picIguanas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
