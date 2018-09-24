@@ -22,10 +22,12 @@ Partial Class frmSplash
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.lblName = New System.Windows.Forms.Label()
         Me.lblMsg = New System.Windows.Forms.Label()
         Me.picIguanas = New System.Windows.Forms.PictureBox()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.tmrExit = New System.Windows.Forms.Timer(Me.components)
         CType(Me.picIguanas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -52,21 +54,26 @@ Partial Class frmSplash
         'picIguanas
         '
         Me.picIguanas.Image = Global.Splash_Project.My.Resources.Resources.Iguanas
-        Me.picIguanas.Location = New System.Drawing.Point(34, 23)
+        Me.picIguanas.Location = New System.Drawing.Point(-7, -11)
         Me.picIguanas.Name = "picIguanas"
-        Me.picIguanas.Size = New System.Drawing.Size(316, 255)
+        Me.picIguanas.Size = New System.Drawing.Size(405, 322)
         Me.picIguanas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.picIguanas.TabIndex = 2
         Me.picIguanas.TabStop = False
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(298, 275)
+        Me.btnExit.Location = New System.Drawing.Point(325, 266)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(52, 23)
         Me.btnExit.TabIndex = 3
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
+        '
+        'tmrExit
+        '
+        Me.tmrExit.Enabled = True
+        Me.tmrExit.Interval = 6000
         '
         'frmSplash
         '
@@ -74,14 +81,17 @@ Partial Class frmSplash
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(389, 301)
+        Me.ControlBox = False
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.lblMsg)
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.picIguanas)
         Me.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmSplash"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Walawa Zoo"
         CType(Me.picIguanas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -92,4 +102,5 @@ Partial Class frmSplash
     Friend WithEvents lblMsg As Label
     Friend WithEvents picIguanas As PictureBox
     Friend WithEvents btnExit As Button
+    Friend WithEvents tmrExit As Timer
 End Class
