@@ -33,6 +33,8 @@
                 MessageBox.Show("This person's gender is male.", "Select Demo")
             Case "kevin"
                 MessageBox.Show("This person's gender is unknown.", "Select Demo")
+            Case Else
+                MessageBox.Show("I dont know this person's gender.", "Select Demo")
         End Select
     End Sub
 End Class
