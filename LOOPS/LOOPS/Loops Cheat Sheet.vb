@@ -1,10 +1,10 @@
 ﻿Public Class Form1
     Private Sub btnForNextLoop_Click(sender As Object, e As EventArgs) Handles btnForNextLoop.Click
         'Declare variable
-        Dim inCount As Integer
+        Dim intCount As Integer
 
         'Clear the ,list
-        ClearList()
+        Clearlist()
 
         'Perform a loop
         For intCount = 1 To 5
@@ -145,5 +145,49 @@
             End If
 
         Loop
+    End Sub
+
+    Private Sub btnAddition_Click(sender As Object, e As EventArgs) Handles btnAddition.Click
+        'Declare a variable
+        Dim total As Integer = 0
+        Dim numInput As Integer
+
+        numInput = txtNumInput.Text.ToString
+
+        'Loop and add numbers
+        For count = 1 To numInput
+            lstData.Items.Add(count)
+            total = total + count
+        Next
+
+        lstData.Items.Add(total)
+    End Sub
+
+    Private Sub txtNumInput_Click(sender As Object, e As EventArgs) Handles txtNumInput.Click
+        'Clear default message on click
+        txtNumInput.Clear()
+    End Sub
+
+    Private Sub btnDoWhileClass_Click(sender As Object, e As EventArgs) Handles btnDoWhileClass.Click
+        Dim n As Integer
+        n = 1
+
+        Do Until n > 10
+            lstData.Items.Add(n)
+            n = n + 1
+        Loop
+    End Sub
+
+    Private Sub btnCountdown_Click(sender As Object, e As EventArgs) Handles btnCountdown.Click
+        'Clear the ,list
+        Clearlist()
+
+        'loop backwards
+        For sec As Integer = 60 To 0 Step -1
+            lstData.Items.Add(sec)
+        Next
+
+        MsgBox("Countdown to 0 complete")
+
     End Sub
 End Class

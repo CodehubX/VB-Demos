@@ -44,4 +44,70 @@
             lstFriends.Items.Add(strName)
         Next
     End Sub
+
+    Private Sub btnArraysAsParameters_Click(sender As Object, e As EventArgs) Handles btnArraysAsParameters.Click
+        'Clear List
+        ClearList()
+
+        'List your friends
+        AddItemsToList(strFriends)
+    End Sub
+
+    Private Sub AddItemsToLIst(ByRef arrayList As String())
+        'Enumerate the array
+        For Each strName As String In arrayList
+            'Add the array item to the lsit
+            lstFriends.Items.Add(strName)
+        Next
+    End Sub
+
+    Private Sub btnMoreArrayParameters_Click(sender As Object, e As EventArgs) Handles btnMoreArrayParameters.Click
+        'Clear List
+        ClearList()
+
+        'Declare an array
+        Dim strMoreFriends(1) As String
+
+        'populate the array
+        strMoreFriends(0) = "Teyvon"
+        strMoreFriends(1) = "Jenna"
+
+        'List your friends
+        AddItemsToLIst(strFriends)
+        AddItemsToLIst(strMoreFriends)
+    End Sub
+
+    Private Sub btnSortingArrays_Click(sender As Object, e As EventArgs) Handles btnSortingArrays.Click
+        'Clear List
+        ClearList()
+
+        'sort Arrays
+        Array.Sort(strFriends)
+
+        'List your friends
+        AddItemsToLIst(strFriends)
+    End Sub
+
+    Private Sub btnReversingAnArray_Click(sender As Object, e As EventArgs) Handles btnReversingAnArray.Click
+        'Clear List
+        ClearList()
+
+        'Reverse the order-elements
+        Array.Reverse(strFriends)
+
+        'List your friends
+        AddItemsToLIst(strFriends)
+
+    End Sub
+
+    Private Sub btnInitialisingArraysWithValues_Click(sender As Object, e As EventArgs) Handles btnInitialisingArraysWithValues.Click
+        'Clear List
+        ClearList()
+
+        'Declare and populate an array
+        Dim strMyFriends() As String = {"Tevon", "Fred", "Debra", "Gingerana", "Hilda"}
+
+        'List your friends
+        AddItemsToLIst(strMyFriends)
+    End Sub
 End Class
